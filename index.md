@@ -19,7 +19,6 @@ Here you’ll find my projects, ideas, and experiments with **tech, automation, 
 
 ## 🚧 Featured Projects
 - 🔍 **Smart Product Alert** – Automated script to track stock availability and notify instantly.  
-- 📝 **Careernest** – A services website for career guidance & growth.  
 - ⚙️ **Web Scraping Bots** – Data collection and automation tools.  
 
 👉 Check out my repositories for more cool stuff.  
