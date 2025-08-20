@@ -1,0 +1,44 @@
+theme: minima# Site settings
+title: "Demo"          # Your site title
+author: "Ganji Chudail"           # Your name/brand
+description: "A modern blog on careers, tech, and personal growth 🚀"  
+
+# Theme
+theme: minima
+
+# Social links (shows up if your theme supports it)
+github_username: singhharsh77      # Replace with your GitHub username
+twitter_username: Demo     # Replace or remove if you don’t use Twitter
+linkedin_username: Demo
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Optional features
+show_excerpts: true        # Show previews of posts on the homepage
+paginate: 5                # Number of posts per page
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Custom variables (you can reuse them in pages/layouts)
+email: "demoemail@example.com"
+website: "https://demo.com"
+
+# Plugins (optional but useful)
+plugins:
+  - jekyll-feed      # RSS feed for readers
+  - jekyll-seo-tag   # Adds SEO tags for Google
+  - jekyll-sitemap   # Generates sitemap for indexing
+
+# Defaults for posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Ganji Chudail"
+      comments: true
